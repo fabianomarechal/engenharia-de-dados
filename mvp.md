@@ -32,5 +32,6 @@ Notebook para analise e modelagem
     a. Qualidade dos dados
     b. Solução do Problema
 
-Dificuldades encontrados e possíveis implementações futuras
+### Dificuldades encontrados e possíveis implementações futuras
 
+A primeira pedra no caminho foi que o arquivo de texto contendo os dados econômicos dos municípios estavam em texto puro com um PDF contendo o layout indicando as posições dos campos. Precisei portanto elaborar um código pra fazer a conversão e importação.
