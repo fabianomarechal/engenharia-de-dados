@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "engenharia-de-dados"
+version = "0.1.0"
+description = "Engenharia de Dados"
+authors = ["Fabiano Leite <fabiano.marechal@gmail.com>"]
+readme = "README.md"
+packages = [{include = "engenharia_de_dados"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyspark = "^3.4.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
